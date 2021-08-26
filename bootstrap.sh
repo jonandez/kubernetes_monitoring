@@ -1,11 +1,7 @@
 #!/bin/bash
 # Create prometheus app
 echo "[TASK 1 ] Create Prometheus app"
-# kubectl create -f namespace.yaml
-# kubectl create -f clusterRole.yaml
-# kubectl create -f config-map.yaml
-# kubectl create -f prometheus-deployment.yaml
-# kubectl create -f prometheus-service.yaml --namespace=monitoring
+kubectl create namespace monitoring
 kubectl apply -f prometheus/
 
 
