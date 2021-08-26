@@ -7,10 +7,12 @@ kind: Namespace
 metadata:
   name: monitoring
 
-kubectl -f apply namespace monitoring.yml
-kubectl create -f clusterRole.yaml
-kubectl create -f config-map.yaml
-kubectl create -f config-map.yaml
+# kubectl create -f namespace.yaml
+# kubectl create -f clusterRole.yaml
+# kubectl create -f config-map.yaml
+# kubectl create -f prometheus-deployment.yaml
+# kubectl create -f prometheus-service.yaml --namespace=monitoring
+
 
 
 ####################################################################
